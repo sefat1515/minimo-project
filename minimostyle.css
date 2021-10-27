@@ -1,0 +1,323 @@
+/*--------- COMMON CSS start --------*/
+*{
+	margin: 0%;
+	padding: 0%;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+
+.cs{
+	/*border: 2px solid red;*/
+	padding: 40px 0;
+}
+.cw1{
+	/*border: 2px solid cyan;*/
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+.cw2{
+	/*border: 2px solid cyan;*/
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.cw3{
+	/*border: 2px solid cyan;*/
+	overflow: hidden;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: rgb(0, 0, 0);
+}
+h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: #626262;
+}
+
+/*--------- COMMON CSS end --------*/
+
+
+
+
+
+
+
+
+
+/*------------ header start -----------*/
+
+.header .logo{
+	width: 8%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.header img{
+	width: 100%;
+}
+
+.header .menu{
+	width: 75%;
+	/*border: 1px solid red;*/
+	float: right;
+	overflow: hidden;
+
+}
+.header ul{
+	float: right;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.header li{
+	float: left;
+	/*border: 1px solid red;*/
+}
+.header ul a{
+	display: block;
+	/*border: 1px solid red;*/
+	color: #626262;
+	margin: 2px 45px;
+	border-bottom: 1px solid transparent;
+}
+.header ul a:hover{
+	border-bottom: 1px solid #626262;
+}
+.header ul li:last-child a{
+	margin-right: 0px;
+}
+
+/*----------- header end -----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------banner start-----------*/
+
+.banner img{
+	width: 100%;
+}
+/*-----------banner end-----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------blog start-----------*/
+
+.blog{
+	width: 44%;
+	/*border: 1px solid blue;*/
+	padding: 40px 6%;
+	float: left;
+
+}
+.blog img {
+	width: 100%;
+	transition: .3s;
+}
+
+.blog img:hover{
+	transform: scale(.8);
+}
+.link{
+	margin: 20px 0px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #626262;
+}
+.blog img, .link, .paragraph, .blog h2{
+	margin: 20px 0px;
+	line-height: 28px;
+	word-spacing: 4px;
+}
+
+.blog:nth-child(even) {
+	padding-right: 0px;
+}
+.blog:nth-child(odd) {
+	padding-left: 0px;
+}
+
+/*-----------blog end*-----------/
+
+
+
+
+
+
+
+
+
+
+
+
+ /-----------*news letter start-----------*/
+.news_letter{
+	background-color: #f0f0f0;
+}
+
+.news_letter .up_box{
+	/*border: 1px solid blue;*/
+	padding: 40px 0;
+}
+
+.news_letter .down_box{
+	/*border: 1px solid purple;*/
+	padding: 40px 0;
+}
+
+.news_letter form{
+	/*border: 1px solid blue;*/
+	width: 372px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	padding: ;
+}
+.news_letter input{
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+	width: 88%;
+	height: 45px;
+	border: none;
+	border-bottom: 2px solid #626262;
+	background-color: transparent;
+	padding-right: 54px;
+}
+.news_letter input:focus{
+	outline: 0;
+}
+.news_letter button{
+	border: none;
+	background-color: transparent;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;	
+}
+.news_letter button:focus{
+	outline: 0;
+	cursor: pointer;
+}
+/*-----------news letter end-----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------Load more button start---------*/
+.load_more .button_wrapper{
+	width: 150px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	padding: 80px 0;
+}
+.load_more button{
+	padding: 10px 10px;
+	width: 100%;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*---------Load more button end---------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------- footer start -----------*/
+
+.footer{
+	background-color: #f0f0f0;
+}
+.footer .l_box{
+	width: 45%;
+	/*border: 1px solid purple;*/
+	float: left;
+}
+
+.footer .r_box{
+	width: 45%;
+	/*border: 1px solid red;*/
+	float: right;
+	overflow: hidden;
+
+}
+.footer .r_box ul{
+	float: right;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.footer li{
+	float: left;
+	/*border: 1px solid red;*/
+}
+.footer ul a{
+	display: block;
+	/*border: 1px solid red;*/
+	color: #626262;
+	padding: 2px 11px;
+}
+.footer .r_box ul li:last-child a{
+	padding-right: 0px;
+}
+
+.footer .l_box ul li:first-child a{
+	padding-left: 0px;
+}
+.footer ul li a:hover{
+	color: rgb(0, 0, 0);
+}
+
+/*----------- footer end -----------*/
