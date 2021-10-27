@@ -229,12 +229,10 @@ h2{
 	top: 0;
 	bottom: 0;
 	margin: auto 0;	
+	cursor: pointer;
 }
 .news_letter button:focus{
 	outline: 0;
-	cursor: pointer;
-}
-.news_letter button:hover{
 	cursor: pointer;
 }
 /*-----------news letter end-----------*/
