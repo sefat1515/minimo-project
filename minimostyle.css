@@ -233,7 +233,6 @@ h2{
 }
 .news_letter button:focus{
 	outline: 0;
-	cursor: pointer;
 }
 /*-----------news letter end-----------*/
 
