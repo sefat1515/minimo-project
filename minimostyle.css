@@ -234,6 +234,9 @@ h2{
 	outline: 0;
 	cursor: pointer;
 }
+.news_letter button:hover{
+	cursor: pointer;
+}
 /*-----------news letter end-----------*/
 
 
